@@ -1,0 +1,26 @@
+@media screen and (max-width: 475px) {
+    .container {
+      width: 450px;
+    }
+  
+    .heading {
+      width: 95%;
+    }
+
+    .heading h2 {
+        font-size: 2rem;
+    }
+
+    .heading p {
+        font-size: 0.875rem;
+    }
+
+    .gallery {
+        grid-template-columns: 1fr;
+    }
+
+    .gallery item {
+        grid-column: auto;
+    }
+    
+  }
