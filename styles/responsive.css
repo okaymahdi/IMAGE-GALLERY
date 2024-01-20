@@ -19,7 +19,7 @@
         grid-template-columns: 1fr;
     }
 
-    .gallery item {
+    .gallery .item {
         grid-column: auto;
     }
     
